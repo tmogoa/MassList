@@ -8,10 +8,16 @@
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
+    <style>
+        tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+    </style>
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="overflow-hidden">
 
     <nav class="text-white bg-gray-900 flex flex-col sm:flex-row sm:justify-between p-4 items-center">
         <ul class="flex justify-start w-full">
